@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Group-4-Learning-Gestures</string>
+    <string name="choose_a_word">Choose A Word</string>
+    <string name="server_ip_address">Choose Server Ip Address</string>
+
+    <string-array name="server_ips">
+        <item>192.168.0.223</item>
+    </string-array>
+    <string-array name="spinner_words">
+        <item>About</item>
+        <item>And</item>
+        <item>Can</item>
+        <item>Cat</item>
+        <item>Cop</item>
+        <item>Cost</item>
+        <item>Day</item>
+        <item>Deaf</item>
+        <item>Decide</item>
+        <item>Father</item>
+        <item>Find</item>
+        <item>Go Out</item>
+        <item>Gold</item>
+        <item>Goodnight</item>
+        <item>Hearing</item>
+        <item>Here</item>
+        <item>Hospital</item>
+        <item>Hurt</item>
+        <item>If</item>
+        <item>Large</item>
+        <item>Hello</item>
+        <item>Help</item>
+        <item>Sorry</item>
+        <item>After</item>
+        <item>Tiger</item>
+    </string-array>
+    <string-array name="new_spinner_words">
+        <item>Algorithm</item>
+        <item>ACPower</item>
+        <item>Antenna</item>
+        <item>Authentication</item>
+        <item>Authorization</item>
+        <item>Bandwidth</item>
+        <item>Bluetooth</item>
+        <item>Browser</item>
+        <item>CloudComputing</item>
+        <item>DataCompression</item>
+        <item>DataLinkLayer</item>
+        <item>DataMining</item>
+        <item>Decryption</item>
+        <item>Domain</item>
+        <item>Email</item>
+        <item>Exposure</item>
+        <item>Filter</item>
+        <item>Firewall</item>
+        <item>Flooding</item>
+        <item>Gateway</item>
+        <item>Hacker</item>
+        <item>Header</item>
+        <item>HotSwap</item>
+        <item>Hyperlink</item>
+        <item>Infrastructure</item>
+        <item>Integrity</item>
+        <item>Internet</item>
+        <item>Intranet</item>
+        <item>Latency</item>
+        <item>Loopback</item>
+        <item>Motherboard</item>
+        <item>Network</item>
+        <item>Networking</item>
+        <item>NetworkLayer</item>
+        <item>Node</item>
+        <item>Packet</item>
+        <item>Partition</item>
+        <item>PasswordSniffing</item>
+        <item>Patch</item>
+        <item>Phishing</item>
+        <item>PhysicalLayer</item>
+        <item>Ping</item>
+        <item>PortScan</item>
+        <item>PresentationLayer</item>
+        <item>Protocol</item>
+    </string-array>
+    <string name="title_activity_login">LoginActivity</string>
+
+
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="gotoupload">GotoUpload</string>
+</resources>

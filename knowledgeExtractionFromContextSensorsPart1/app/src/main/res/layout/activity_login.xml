@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp"
+        android:singleLine="true"
+        android:text="Learning Gestures App"
+        android:textSize="30sp"
+        android:textColor="@color/red" />
+
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="ASU EMAIL"
+        android:maxLength="30"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/et_id"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="ASU ID"
+        android:inputType="number"
+        android:maxLength="30"
+        android:maxLines="1"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Last Name"
+        android:inputType="text"
+        android:maxLength="30"
+        android:maxLines="1"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="158dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:background="@color/colorPrimary"
+        android:textSize="20sp" />
+
+</LinearLayout>
